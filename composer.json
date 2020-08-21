@@ -1,5 +1,5 @@
 {
-  "name": "pointcloudtechnology/laravel-prometheus-exporter",
+  "name": "exploreorg/laravel-prometheus-exporter",
   "description": "A prometheus exporter for Laravel. Forked from Superbalist.",
   "license": "MIT",
   "authors": [
@@ -16,7 +16,7 @@
     "php": "^7.2",
     "illuminate/support": "^5.3 || ^6.0 || ^7.0",
     "illuminate/routing": "^5.3 || ^6.0 || ^7.0",
-    "endclothing/prometheus_client_php": "dev-bugfix"
+    "exploreorg/prometheus_client_php": "dev-bugfix"
   },
   "repositories": [
     {

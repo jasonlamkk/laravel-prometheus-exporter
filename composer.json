@@ -24,7 +24,8 @@
   "autoload": {
     "psr-4": {
       "Superbalist\\LaravelPrometheusExporter\\": "src/",
-      "Tests\\": "tests/"
+      "Tests\\": "tests/",
+      "Prometheus\\": "Prometheus/"
     }
   },
   "extra": {

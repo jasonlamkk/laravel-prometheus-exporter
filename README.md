@@ -4,12 +4,12 @@ A prometheus exporter for Laravel.
 
 **This is a fork of [Superbalist/laravel-prometheus-exporter](https://github.com/Superbalist/laravel-prometheus-exporter) since the original package depends on an abandoned dependency. See https://github.com/Superbalist/laravel-prometheus-exporter/issues/11 .**
 
-This package is a wrapper bridging [endclothing/prometheus_client_php](https://github.com/endclothing/prometheus_client_php) into Laravel.
+This package ports over the original dependency and modified it to use the default Laravel Redis facade.
 
 ## Installation
 
 ```bash
-composer require superbalist/laravel-prometheus-exporter
+composer require exploreorg/laravel-prometheus-exporter
 ```
 
 Register the service provider in app.php
@@ -43,6 +43,7 @@ PROMETHEUS_STORAGE_ADAPTER=memory
 REDIS_HOST=localhost
 REDIS_PORT=6379
 PROMETHEUS_REDIS_PREFIX=PROMETHEUS_
+PROMETHEUS_REDIS_CONNECTION=
 ```
 
 To customize the configuration file, publish the package configuration using Artisan.
